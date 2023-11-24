@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <title>Nosei | Bussiness & It Solution Industry</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- font awesome 5 -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <!-- IcoFont -->
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+
+
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- start side Bar -->
+    <div class="main-sideBar">
+        <div class="sideBar" id="sideBar">
+            <div class="sideBarLogo">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <button id="sideBar-close-btn" class="sideBar-close"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="sideBar-menu">
+                <div class="menu">                    
+                    <ul class="parentMenu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li class="menuHasChild">
+                            <a href="#">Page
+                                <button  class="icon"><i class="fas fa-angle-down icon"></i></button>
+                            </a>
+                            <ul class="child-menu" id="childd-menu">
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Project</a></li>
+                                <li><a href="#">Project Details</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Team Details</a></li>
+                                <li><a href="#">Team Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="menuHasChild">
+                            <a href="#">Blog
+                                <button  class="iconn"><i class="fas fa-angle-down icon"></i></button>
+                            </a>
+                            <ul class="childd-menu" id="childdd-menu">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Blog List</a></li>
+                                <li><a href="#">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sideBar-contact">
+                <div class="ScontactHeader"><h1>Contact Info</h1></div>
+                <span class="location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>27 Division St, Bareakuti, NY 121102, USA</span>
+                </span>
+                <a class="phone" href="tel:+8821777826136">
+                    <i class="fas fa-phone"></i>
+                    <span>+8821777826136</span>
+                </a>
+                <a class="mail" href="mailto:exmple@gmail.com">
+                    <i class="far fa-envelope"></i>
+                    <span>example@gmail.com</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- end side Bar -->
+
+    <!-- start header -->
+    <section class="main-header">
+        <nav>
+            <div class="header-container">
+                <div class="header-logo">
+                    <div class="headerImg">
+                        <img src="./img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="header-menu">
+                    <div class="menu">
+                        <ul class="parentMenu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li class="menuHasChild"><a href="#">Page<i class="fas fa-angle-down"></i></a>
+                                <ul class="child-menu">
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Project</a></li>
+                                    <li><a href="#">Project Details</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Team Details</a></li>
+                                    <li><a href="#">Team Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="menuHasChild"><a href="#">Blog<i class="fas fa-angle-down"></i></a>
+                                <ul class="child-menu">
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Blog List</a></li>
+                                    <li><a href="#">Blog Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-menu-right">
+                        <div class="searchBox">
+                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </div>
+                        <div class="header-btn">
+                            <button class="btn">Contact Us <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                        <div class="sideBar-open searchBox" id="sideBar-open-btn">
+                            <button class="open-btn"><i class="fas fa-bars"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- end header -->
+
+
+    <!-- start hero-->
+    <section class="section hero">
+        <div class="hero-shapeImg">
+            <img class="shapeImg1 shapeImg" src="img/shapee-3.png" alt="">
+            <img class="shapeImg2 shapeImg" src="img/shapee-2.png" alt="">
+            <img class="shapeImg4 shapeImg" src="img/shape-4.png" alt="">
+            <img class="shapeImg5 shapeImg" src="img/shape-5.png" alt="">
+        </div>
+        <div class="container">
+            <div class="hero-text">
+                <span>welcome to nosei</span>
+                <h1>Best IT-Slolution And Business</h1>
+                <p>Nullam eu nibh vitae est tempor molestie id sed exthe. Quisque<br> dignissim maximus ipsum metus ipsum.</p>
+                <div class="hero-btn">
+                    <button class="btn">Contact Us <i class="fa-solid fa-arrow-right"></i></button>
+                    <div class="hero-play">
+                        <a href="#"><i class="fas fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-text-right"></div>
+        </div>
+    </section>    
+    <!-- end hero-->
+
+
+    <!-- start feature-->
+    <section class=" feature">
+        <div class="feature-title common-title">
+            <span class="f-subtitle c-subtitle">best feature</span>
+            <h2 class="f-title c-title">we are Business features</h2>
+        </div>
+        
+        <div class="container">
+            <div class="feature-box">
+                <div class="feature-item f-item1">
+                    <img src="img/feature-bg-1.jpg" alt="">
+                    <h4>Business network</h4>
+                    <p>Nullam vitae tempor molestie exthe.</p>
+                    <div class="frature-item-icon">
+                        <i class="icofont-network"></i>
+                    </div>
+                </div>
+                <div class="feature-item f-item2">
+                    <img src="img/feature-bg-1.jpg" alt="">
+                    <h4>60 for mobiles</h4>
+                    <p>Nullam vitae tempor molestie exthe.</p>
+                    <div class="frature-item-icon">
+                        <i class="icofont-contrast"></i>
+                    </div>
+                </div>
+                <div class="feature-item f-item3">
+                    <img src="img/feature-bg-1.jpg" alt="">
+                    <h4>line streaming</h4>
+                    <p>Nullam vitae tempor molestie exthe.</p>
+                    <div class="frature-item-icon">
+                        <i class="icofont-signal"></i>
+                    </div>
+                </div>
+                <div class="feature-item f-item4">
+                    <img src="img/feature-bg-1.jpg" alt="">
+                    <h4>fiber broads</h4>
+                    <p>Nullam vitae tempor molestie exthe.</p>
+                    <div class="frature-item-icon">
+                        <i class="icofont-network-tower"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end hero-->
+
+
+    <!-- start About-->
+    <section class="section about">
+        <div class="container">
+            <div class="aboutLeft">
+                <div class="about-bg">                    
+                    <div class="aboutImg1">
+                        <div class="aboutImgLeft">
+                            <img class="aboutImgleft-img" src="./img/about-1.jpg" alt="">
+                            <a class="about-play" href="#"><img src="./img/play-btn.png" alt=""></a>
+                        </div>
+                        <div class="aboutImgRight">
+                            <h4>Experince</h4>
+                            <span class="aboutImg-count">26+</span>
+                        </div>
+                    </div>
+                    <div class="aboutImg2">
+                        <img class="aboutImg2-img" src="./img/about-2.jpg" alt="">
+                        <img class="aboutImg2-shape" src="./img/about-shape-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="aboutRight">
+                <div class="about-title common-title">
+                    <span class="a-subtitle c-subtitle">About Our Company</span>
+                    <h2 class="a-title c-title">About 26+ Experince Hands Such As Front Admin</h2>
+                    <p>In job gives you handcrafted options such as front adm in reviews or email notifications. It also gives employer management fo apps ial media in area.</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="about-text-left">
+                            <div class="about-text-Ltop">
+                                <div class="about-text-Ltop1 Ltop">
+                                    <h5>our mission</h5>
+                                    <a href="#"><i class="icofont-life-ring"></i></a>
+                                </div>
+                                <div class="about-text-Ltop2 Ltop">
+                                    <h5>team support</h5>
+                                    <a href="#"><i class="icofont-live-support"></i></a>
+                                </div>
+                            </div>
+                            <div class="about-text-list">
+                                <ul>
+                                    <li><i class="icofont-checked"></i>
+                                    Business ndisse suscipit sagittis leo.
+                                    </li>
+                                    <li><i class="icofont-checked"></i>
+                                    We gives employer management.
+                                    </li>
+                                    <li><i class="icofont-checked"></i>
+                                    Media in this area of the solution.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="about-text-right">
+                            <div class="about-text-Rcontent">
+                                <h5>Project Job</h5>
+                                <p> In handcraft job gives you as front adm in reviews. </p>
+                                <a href="#"><i class="icofont-rounded-right"></i></a>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="about-profile">
+                        <div class="about-profile-img">
+                            <img src="./img/about-admin.png" alt="">
+                        </div>
+                        <div class="about-profile-text">
+                            <h4>Rahat Hassan</h4>
+                            <p>Co- Founder</p>
+                        </div>
+                        <div class="about-profile-sign">
+                            <img src="./img/signature.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end About-->
+
+
+    <!-- start About-->
+    <section class="services">
+        <div class="container">
+            <div class="services-title common-title">
+                <span class="s-subtitle c-subtitle">what we do</span>
+                <h2 class="s-title c-title">We High Service That Stand</h2>
+            </div>
+            <div class="services-container">
+                <div class="services-item s-item1">
+                    <div class="service-img">
+                        <img src="./img/service-1.jpg" alt="">
+                    </div>
+                    <div class="service-text">
+                        <h4><a href="#">Product to satelit</a></h4>
+                        <p>We job gives you handcrafted options such as front admin reviews or It also gives It business
+                        </p>
+                        <a class="servic-read" href="#">read more <i class="icofont-plus"></i></a>
+                        <div class="service-text-icon">
+                            <i class="icofont-mega-phone"></i>
+                        </div>
+                        <span class="service-circle sc1"></span>
+                        <span class="service-circle sc2"></span>
+                    </div>
+                </div>
+                <div class="services-item s-item2">
+                    <div class="service-img">
+                        <img src="./img/service-2.jpg" alt="">
+                    </div>
+                    <div class="service-text">
+                        <h4><a href="#">business for network</a></h4>
+                        <p>We job gives you handcrafted options such as front admin reviews or It also gives It business
+                        </p>
+                        <a class="servic-read" href="#">read more <i class="icofont-plus"></i></a>
+                        <div class="service-text-icon">
+                            <i class="icofont-bars"></i>
+                        </div>
+                        <span class="service-circle sc1"></span>
+                        <span class="service-circle sc2"></span>
+                    </div>
+                </div>
+                <div class="services-item s-item3">
+                    <div class="service-img">
+                        <img src="./img/service-3.jpg" alt="">
+                    </div>
+                    <div class="service-text">
+                        <h4><a href="#">computer of solution</a></h4>
+                        <p>We job gives you handcrafted options such as front admin reviews or It also gives It business
+                        </p>
+                        <a class="servic-read" href="#">read more <i class="icofont-plus"></i></a>
+                        <div class="service-text-icon">
+                            <i class="icofont-contrast"></i>
+                        </div>
+                        <span class="service-circle sc1"></span>
+                        <span class="service-circle sc2"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="service-tagline">
+                <p><span>Service:</span>We best service it-solution for business.</p>
+            </div>
+        </div>
+    </section>
+    <!-- end About-->
+
+
+    <!-- start choose-->
+    <section class="choose">
+        <img class="choose-shape shape1" src="img/shape-1.png" alt="">
+        <img class="choose-shape shape2" src="img/choose-shape-2.png" alt="">
+        <img class="choose-shape shape3" src="img/choose-shape-3.png" alt="">
+        <div class="choose-bg">
+            <img src="img/choose-bg.png" alt="">
+        </div>
+        <div class="container">
+            <div class="choose-container">
+                <div class="choose-left d-block">
+                    <div class="choose-title about-title common-title">
+                        <span class="a-subtitle c-subtitle">why choose us?</span>
+                        <h2 class="a-title c-title">About Gives You Hand Best Such As Front Admin</h2>
+                        <p>In job gives you handcrafted options such as front adm in reviews or email notifications. It also gives employer management fo apps ial media in area.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, odit!</p>
+                    </div>
+                    <div class="choose-content">
+                        <blockquote class="choose-quote">
+                            <span><i class="icofont-quote-left"></i></span>
+                            <p>There are many variations of passages of Fasts by injected humour, or randomised ere we must-have solution to satisfy most.</p>
+                        </blockquote>
+                        <div class="choose-list about-text-list">
+                            <ul>
+                                <li>
+                                    <i class="icofont-checked"></i> Business ndisse suscipit sagittis leo.</li>
+                                <li>
+                                    <i class="icofont-checked"></i> We gives employer management</li>
+                                <li>
+                                    <i class="icofont-checked"></i> Media in this area of the solution.</li>
+                            </ul>
+                        </div>
+                        <div class="hero-btn">
+                            <button class="btn">Read More <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="choose-right">
+                    <div class="choose-img">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <div class="choose-left-bottom">
+        <div class="container">
+            <div class="choose-left d-none">
+                <div class="choose-title about-title common-title">
+                    <span class="a-subtitle c-subtitle">why choose us?</span>
+                    <h2 class="a-title c-title">About Gives You Hand Best Such As Front Admin</h2>
+                    <p>In job gives you handcrafted options such as front adm in reviews or email notifications. It also gives employer management fo apps ial media in area.</p>
+                </div>
+                <div class="choose-content">
+                    <blockquote class="choose-quote">
+                        <span><i class="icofont-quote-left"></i></span>
+                        <p>There are many variations of passages of Fasts by injected humour, or randomised ere we must-have solution to satisfy most.</p>
+                    </blockquote>
+                    <div class="choose-list about-text-list">
+                        <ul>
+                            <li>
+                                <i class="icofont-checked"></i> Business ndisse suscipit sagittis leo.</li>
+                            <li>
+                                <i class="icofont-checked"></i> We gives employer management</li>
+                            <li>
+                                <i class="icofont-checked"></i> Media in this area of the solution.</li>
+                        </ul>
+                    </div>
+                    <div class="hero-btn">
+                        <button class="btn">Read More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end choose-->
+
+
+    <!-- start project-->
+    <section class="project">
+        <div class="services-title common-title">
+            <span class="s-subtitle c-subtitle">what we do</span>
+            <h2 class="s-title c-title">We High Service That Stand</h2>
+        </div>
+        <div class="project-container">
+            <div class="project-item project-item1">
+                <div class="project-img">
+                    <img src="img/project-1.jpg" alt="">
+                </div>
+                <div class="project-content">
+                    <h4>Bussiness Network</h4>
+                    <span>Design / Business</span>
+                </div>
+                <div class="project-content-btn">
+                    <div class="project-content-icon">
+                        <i class="fa-solid fa-circle-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="project-shape shape1"></div>
+                <div class="project-shape shape2"></div>
+            </div>
+            <div class="project-item project-item2">
+                <div class="project-img">
+                    <img src="img/project-2.jpg" alt="">
+                </div>
+                <div class="project-content">
+                    <h4>Bussiness Network</h4>
+                    <span>Design / Business</span>
+                </div>
+                <div class="project-content-btn">
+                    <div class="project-content-icon">
+                        <i class="fa-solid fa-circle-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="project-shape shape1"></div>
+                <div class="project-shape shape2"></div>
+            </div>
+            <div class="project-item project-item3">
+                <div class="project-img">
+                    <img src="img/project-3.jpg" alt="">
+                </div>
+                <div class="project-content">
+                    <h4>Bussiness Network</h4>
+                    <span>Design / Business</span>
+                </div>
+                <div class="project-content-btn">
+                    <div class="project-content-icon">
+                        <i class="fa-solid fa-circle-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="project-shape shape1"></div>
+                <div class="project-shape shape2"></div>
+            </div>
+            <div class="project-item project-item4">
+                <div class="project-img">
+                    <img src="img/project-4.jpg" alt="">
+                </div>
+                <div class="project-content">
+                    <h4>Bussiness Network</h4>
+                    <span>Design / Business</span>
+                </div>
+                <div class="project-content-btn">
+                    <div class="project-content-icon">
+                        <i class="fa-solid fa-circle-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="project-shape shape1"></div>
+                <div class="project-shape shape2"></div>
+            </div>
+        </div>
+    </section>
+    <!-- end project-->
+
+
+    <!-- start call to action-->
+    <section class="call-to-action">
+        <div class="container">
+            <img src="img/cta-play-bg.png" alt="" class="call-img call-img1">
+            <img src="img/play-btn.png" alt="" class="call-img call-img2">
+            <img src="img/shape-2.png" alt="" class="call-shap">
+            <div class="call-to-action-text">
+                <div class="call-to-action-title common-title">
+                    <span class="f-subtitle c-subtitle">Call To Action</span>
+                    <h2 class="f-title c-title">Contact Some Easy To Step</h2>
+                    <h3 class="call-to-action-subtitle">Get Your Qouter or Call: (+89)45600555</h3>                    
+                    <div class="call-to-action-btn">
+                        <button class="btn">Read More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end call to action-->
+
+
+    
+    <!-- Indexing js -->
+    <script src="index.js"></script>
+
+</body>
+</html>
